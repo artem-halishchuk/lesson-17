@@ -51,7 +51,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 .container {
-  width: 1320px;
+  //width: 1320px;
   margin: 0 auto;
   padding: 0;
 }
@@ -129,11 +129,11 @@ body {
   font-weight: 400;
   line-height: calc(18.88 / 16);
 }
-@mixin container {
-  width: 1320px;
-  margin-right: auto;
-  margin-left: auto;
-}
+// @mixin container {
+//   //width: 1320px;
+//   margin-right: auto;
+//   margin-left: auto;
+// }
 @mixin language-switcher-mixin {
   .lng {
     display: inline-flex;
@@ -196,7 +196,6 @@ body {
 }
 @mixin button-more-posts {
   .button-more-posts {
-    display: flex;
     width: 250px;
     margin-right: auto;
     margin-left: auto;
